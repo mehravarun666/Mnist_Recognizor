@@ -1,16 +1,34 @@
-# digitrecognizertflite
+# Digit Recognition App
 
-A new Flutter project.
+This Flutter project implements a digit recognition application using TensorFlow Lite. The app allows users to draw digits (0-9) on a canvas and then predicts the drawn digit with a confidence level using a pre-trained model based on the MNIST dataset. Additionally, the app provides voice feedback to the user, narrating the predicted digit.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Allows users to draw digits on a canvas.
+- Utilizes a TensorFlow Lite model for digit recognition.
+- Provides prediction confidence levels.
+- Offers voice-over feedback for the drawn digit.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   git clone https://github.com/your-username/digit-recognition-app.git
+2. Navigate to the project directory:
+   cd digit-recognition-app
+3. Install dependencies:
+   flutter pub get
+4. Run the app:
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+
+Draw a digit (0-9) on the canvas provided in the app.
+Wait for the prediction result to appear with a confidence level.
+Listen to the voice-over narration of the predicted digit.
+
+##Contributing
+Contributions are welcome! If you want to contribute to this project, feel free to submit a pull request.
+
+##License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
