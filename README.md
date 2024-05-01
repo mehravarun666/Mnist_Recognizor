@@ -12,7 +12,7 @@ This Flutter project implements a digit recognition application using TensorFlow
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/your-username/digit-recognition-app.git
+   git clone https://github.com/mehravarun666/Mnist_Recognizor.git
 2. Navigate to the project directory:
    cd digit-recognition-app
 3. Install dependencies:
